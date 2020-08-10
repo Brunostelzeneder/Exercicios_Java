@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exercicio_3 {
 	/* Faça um programa em que permita a entrada de um número qualquer e exiba se este
 	número é par ou ímpar. Se for par exiba também a raiz quadrada do mesmo; se for
-			ímpar exiba o número elevado ao quadrado.*/
+			ímpar exiba o número elevado ao quadrado .*/
 			
 	public static void main (String args[])
 	{
