@@ -1,0 +1,9 @@
+package Exercicios_introdutorios;
+
+public class teste {
+	Scanner ler = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,3 +1,6 @@
+package Lacos_condicionais;
+import java.util.Scanner;
+
 
 
 	import java.util.*;

@@ -1,0 +1,62 @@
+/**
+ * 
+ */
+package For_while;
+
+import java.util.Scanner;
+
+/**
+ * @author Bruno
+ *
+ */
+
+public class Exercicio_1 {
+
+	public static void main (String args[])
+{
+	
+	
+	Scanner ler = new Scanner (System.in);
+	
+	int x,impar=0,par=0;
+
+	System.out.println("Digite o primeiro valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o segundo valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o terceiro valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o quarto valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o quinto valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o sexto valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o sétimo valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o oitado valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o nono valor ");
+	x = ler.nextInt();
+	System.out.println("Digite o décimo valor ");
+	x = ler.nextInt();
+	
+	if(x%2==0)
+	
+	{
+		par++;
+		
+		System.out.println("\n a quantidade de números pares é de:  ."+par);
+		
+	}
+	
+	else 
+	{
+		
+		System.out.println("\n a quantidade de números impares é de:  ."+impar);
+	
+	}
+}
+
+}
+

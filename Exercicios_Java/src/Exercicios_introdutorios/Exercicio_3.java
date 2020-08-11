@@ -27,7 +27,7 @@ public class Exercicio_3 {
 			raizquadrada = (int) Math.sqrt(numero);
 			System.out.println("\n A raiz quadrada é de: "+raizquadrada);
 			
-		}
+		} 
 		
 	}
 

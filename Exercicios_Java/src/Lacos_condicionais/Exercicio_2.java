@@ -1,3 +1,6 @@
+package Lacos_condicionais;
+import java.util.Scanner;
+
 
 public class Exercicio_2 {
 
