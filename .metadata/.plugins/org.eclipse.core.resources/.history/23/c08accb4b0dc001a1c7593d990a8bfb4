@@ -1,0 +1,19 @@
+package Array;
+
+import java.util.Scanner;
+
+public class Exercicio_2 {
+
+	public static void main (String args[]) {
+		
+		int [] matriz = new int [5];
+		int ler;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite um valor");
+		ler = entrada.nextInt();
+		
+		
+	}
+} 	

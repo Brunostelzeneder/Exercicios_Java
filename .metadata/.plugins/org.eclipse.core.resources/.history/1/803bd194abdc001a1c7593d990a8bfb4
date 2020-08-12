@@ -1,0 +1,27 @@
+package Array;
+
+import java.util.Scanner;
+
+public class Exercicio_1 {
+	public static void main (String args[]) {
+		Scanner x = new Scanner(System.in);
+		
+		int [] a = {1, 0, 5, -2, -5, 7};
+		int soma;
+		int [] b = {1, 0, 5, -2, -5, 7};
+		int [] c = {1, 0, 5, -2, -5, 7};
+		
+		
+			soma = a[0] + a[1] + a[5]; 		 
+			
+				
+			
+			
+			System.out.println("A soma das posições 0:["+a[0]+"]1:["+a[1]+"]2:["+a[2]+"]3:["+a[3]+"]4:["+a[4]+"]5:["+a[5]+"]6:["+a[5]+"]");
+			System.out.println("A soma das posições [A0] [A1] [A5]: "+soma);
+			}
+			
+			
+	}
+
+
