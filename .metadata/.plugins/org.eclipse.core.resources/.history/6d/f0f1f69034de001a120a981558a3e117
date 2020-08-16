@@ -1,0 +1,10 @@
+package poo_1informacoes;
+
+public class poo_include {
+	
+	public static void main (String args[]) 
+	{
+		poo_1informacoes pessoa1 = new poo_1informacoes("Maria","Antonia","Oliveira");
+		System.out.println(pessoa1.getNomeCompleto());
+}
+}	

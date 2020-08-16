@@ -1,0 +1,10 @@
+package cliente;
+
+public class Cliente_instancias {
+	public static void main (String args[])
+	{
+		ClienteInfo nome = new  ClienteInfo();
+		System.out.println(nome.getnomecompleto());
+	}
+
+}

@@ -1,0 +1,13 @@
+package cliente;
+
+import poo_1informacoes.poo_1informacoes;
+
+public class Cliente_instancias {
+	public static void main (String args[]) 
+	
+	{
+		Cliente_infos nomecliente = new Cliente_infos ("Bruno Stelzeneder Cardoso", 0, null, null, 0);
+		System.out.println(nomecliente.getnomecompleto());
+	}
+
+}

@@ -1,0 +1,10 @@
+package cliente;
+
+public class Cliente_instancias {
+	public static void main (String args[]) 
+	
+	{
+		cliente_infos = new cliente_infos("Bruno Stelzeneder Carodso");
+	}
+
+}

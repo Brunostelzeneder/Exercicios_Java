@@ -1,0 +1,11 @@
+package cliente;
+
+public class Cliente_instancias {
+	public static void main (String args[]) 
+	
+	{
+		Cliente_infos nome = new Cliente_infos("Bruno Stelzeneder Carodso", 0, null, null, 0);
+		System.out.println(nome.getnomeCompleto);
+	}
+
+}

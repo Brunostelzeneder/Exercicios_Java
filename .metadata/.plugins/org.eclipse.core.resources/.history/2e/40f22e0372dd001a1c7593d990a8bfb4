@@ -1,0 +1,45 @@
+package Exercicio_Treino;
+
+import java.util.Scanner;
+
+public class Exercicio_3 {
+
+	public static void main (String args[]) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int numero = 0;
+		int cont025=0,cont2650=0,cont5175=0,cont76100=0;
+		
+		System.out.println("Por favor digite qualquer valor positivo para contar ou -1 para sair");
+		numero = ler.nextInt();
+		
+		do 
+		if(numero < 25) 
+		{
+		cont025++;	
+		}
+		else if(numero > 25 && numero < 50) 
+		{
+		cont2650++;	
+		}
+		else if(numero > 51 && numero < 75) 
+		{
+		cont5175++;	
+		}
+		else if(numero > 76 && numero < 100) 
+		{
+		cont5175++;		
+		}
+		while(numero == -1)
+		
+		System.out.println("Por favor digite qualquer valor positivo para contar ou -1 para sair");
+		numero = ler.nextInt();
+		if (numero == -1);
+		{
+			System.out.println("Fim de execução");
+		}
+		
+		System.out.println("Quantidade de valores digitados do 0 ao 25: "+cont025);
+	}
+}

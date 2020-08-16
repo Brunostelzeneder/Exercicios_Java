@@ -1,0 +1,64 @@
+package Exercicio_Treino;
+
+import java.util.Scanner;
+
+public class Exercicio_1 {
+	
+	public static void main (String args[]) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		float pd;
+		int op;
+		float desconto;
+		float agreg1=20;
+		
+		
+		System.out.println("Por favor digite o preço do produto sugerido");
+		pd = ler.nextInt();
+		
+		System.out.println("Agora escolha uma forma de pagamento.\n 1 -- Á Vista ou cheque recebe 20% desconto\n 2 -- Cartão de crédito 15% desconto\n 3 -- 2x Sem desconto\n 4 -- 3x com juros 10%");
+		op = ler.nextInt();
+		
+		switch(op) {
+		
+		case 1:
+		{
+			
+			pd = (int) (pd * 20)/100; 
+			System.out.println("Parabéns pela aquisição. O valor total do seu produto com desconto de 20% foi de: "+pd+" Reais");
+		
+		}
+			break;
+		case 2:
+		{
+			
+			pd = (int) (pd * .20);
+			System.out.println("Parabéns pela aquisição. O valor total do seu produto com desconto de 15% foi de: "+pd+" Reais");
+			
+		}
+			break;
+		case 3:
+		{
+			pd = (int) (pd / 2);
+			System.out.println("Parabéns pela aquisição. O seu produto foi parcelado em duas vezes de: "+pd+" Reais");
+						
+		}
+			break;
+		case 4:
+		{
+			pd = (int) (pd * 10)/100;
+			System.out.printf("Parabéns pela aquisição. O seu produto foi parcelado em 3 vezes de [%d] com juros de 10%: ");
+		}
+			break;
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

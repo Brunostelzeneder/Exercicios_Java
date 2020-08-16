@@ -1,0 +1,23 @@
+package poo_1informacoes;
+
+public class poo_1informacoes {
+	
+	private String primeiroNome;
+	private String nomedoMeio;
+	private String ultimoNome;
+	
+	public poo_1informacoes (String primeiro, String meio, String ultimo) 
+	
+	{
+		primeiroNome=primeiro;
+		ultimoNome=ultimo;
+		nomedoMeio=meio;
+				
+	}
+	public String getNomeCompleto()
+	{
+		String nomeCompleto = primeiroNome+""+nomedoMeio+""+ultimoNome;
+		return nomeCompleto;
+	}
+
+}

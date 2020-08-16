@@ -1,0 +1,36 @@
+package Exercicio_Treino;
+
+import java.util.Scanner;
+
+public class Exercicio_1 {
+	
+	public static void main (String args[]) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int pd;
+		int op;
+		
+		
+		System.out.println("Por favor digite o preço do produto sugerido");
+		pd = ler.nextInt();
+		
+		System.out.println("Agora escolha uma forma de pagamento.\n 1 -- Á Vista ou cheque recebe 20% desconto\n 2 -- Cartão de crédito 15% desconto\n 3 -- 2x Sem desconto\n 4 -- 3x com juros 10%");
+		op = ler.nextInt();
+		
+		switch(op) {
+		
+		case 1:
+			
+			pd = (int) (pd + .20);
+		
+		
+		}
+		
+		
+		
+		
+		
+	}
+
+}

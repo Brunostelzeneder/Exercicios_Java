@@ -10,7 +10,7 @@ public class Exercicio_2 {
 		
 		int linhas = 3;
 		int colunas = 3;
-		int matriz[][] = new int[linhas][colunas],cont10=0,contLinha10=0;
+		int matriz[][] = new int[linhas][colunas],cont10=0,contLinha10=0;git 
 
 //GERAR MATRIZ AUTOMATICAMENTE
 		for(int l=0;l<linhas;l++)

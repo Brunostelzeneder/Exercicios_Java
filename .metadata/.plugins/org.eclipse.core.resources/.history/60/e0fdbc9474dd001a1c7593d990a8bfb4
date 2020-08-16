@@ -1,0 +1,21 @@
+package Exercicio_Treino;
+
+import java.util.Scanner;
+
+public class Exercicio_3 {
+	
+	public static void main (String args[]) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int num, cont025, cont50, cont75, cont100;
+		
+		do
+		{
+			System.out.println("Por favor entre com um valor");
+			num = ler.nextInt();
+			
+		}
+	}
+
+}

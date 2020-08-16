@@ -1,0 +1,57 @@
+package cliente;
+
+public class Cliente_infos {
+	
+	private String nome;
+	private String sobrenome;
+	private double cpf;
+	private String nomeMae;
+	private String nomePai;
+	private int dataNascimento;
+
+	
+	public  Cliente_infos(String nomec, String sobrenome, double cpfc, String nomepaic, String nomeMaec, int datanascimentoc) 
+	
+	{
+	 nome = nomec;
+	 nome = sobrenome;
+	 cpf = cpfc;
+	 nomePai = nomepaic;
+	 nomeMae = nomeMaec;
+	 dataNascimento = datanascimentoc;
+			 		
+	}
+	public Cliente_infos(String string) 
+	{
+		String nome = "nome"+"sobrenome";
+		return;
+	}
+	public String getnomecompleto() 
+	{
+		String nome = "nome"+"sobrenome";
+		return nome;
+	}
+	
+	public String getnomemae() 
+	{
+		String nomemae = "nomeMae";
+		return nomemae;
+	}
+	public String getnomepai() 
+	{
+		String nomepai = "nomePai";
+		return nomepai;
+	}
+	public String getnascimento() 
+	{
+		String nascimento = "dataNascimento";
+		return nascimento;
+	}
+	public String getCPF() 
+	{
+		String ncpf = "cpf";
+		return ncpf;
+	}
+
+}	
+

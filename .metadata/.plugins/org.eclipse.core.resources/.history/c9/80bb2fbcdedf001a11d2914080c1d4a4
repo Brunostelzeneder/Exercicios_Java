@@ -1,0 +1,5 @@
+package cliente;
+
+public class Cliente_info extends Cliente_infos {
+
+}
