@@ -38,6 +38,7 @@ public class ClienteInfo {
 	{
 	int age = idadecliente;
 	return age;
+	
 
 }
 }

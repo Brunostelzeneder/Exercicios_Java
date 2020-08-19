@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="cliente.ClienteInfo"/>
+<fullyQualifiedTypeName name="funcionario.funcionario_insta"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="interfaceJava.Programador"/>
+<fullyQualifiedTypeName name="Polimorfismo.Pessoa1"/>
 </qualifiedTypeNameHistroy>

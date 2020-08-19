@@ -5,7 +5,7 @@ public class funcionario_insta {
 	{
 		
 		System.out.println("Nome do funcionário: ");
-		funcionario_infos nome1 = new funcionario_infos("Bruno Stelzeneder Cardoso");
+		funcionario_infos nome1 = new funcionario_infos("Bruno");
 		System.out.println(nome1.getNome());
 		
 		System.out.println("Número da matricula: ");
@@ -21,7 +21,7 @@ public class funcionario_insta {
 		System.out.println(salario1.getqualsalario());
 		
 		System.out.println("Data de admissão");
-		funcionario_infos admi1 = new funcionario_infos("14/10/2015");
+		funcionario_infos admi1 = new funcionario_infos("14.10.2015");
 		System.out.println(admi1.getqualdataadm());
 	}
 
