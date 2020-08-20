@@ -1,6 +1,41 @@
-package movimentacaoBanco;
+package MóduloI;
+
+import java.util.Scanner;
 
 public class conta_banco {
+	private static final String Else = null;
+
+
+
+	public static void main (String args[])
+	{
+		Scanner ler = new Scanner (System.in);
+		
+		boolean conta,cc, cp;
+		int tipo;
+		String nome;
+		
+		System.out.printf("Didite o número da sua conta: ");
+		conta = ler.nextBoolean();
+		System.out.printf("Sua conta é: ");
+		tipo = ler.nextInt();
+		System.out.printf("Digite o seu Nome Completo: ");
+		nome = ler.nextLine();
+		System.out.printf("Seu nome: %s",nome);
+		System.out.printf("Sua conta: %d", conta);
+		
+		if (cc);
+		{
+			System.out.printf("Conta Corrente");
+		}
+		else if (cp);
+		{
+			System.out.printf("Conta Poupança");
+		}
+	}
+	
+	
+	
 	// Atributos
 	public int numConta;
 	protected String tipo;
@@ -26,11 +61,11 @@ public class conta_banco {
 		this.getStatus(true);
 		if (t == "CC")
 		{
-			this.setSaldo(500);
+			this.setSaldo(50);
 		}
 		else if (t == "CP")
 		
-			this.setSaldo(850);
+			this.setSaldo(150);
 		
 		 System.out.println("Conta aberta com sucesso!");	
 		}
